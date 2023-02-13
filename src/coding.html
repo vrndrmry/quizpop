@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="css/coding.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="game" class="Game">
+        <h2 id="question">Which of the following is not a type of instrument in a symphony orchestra?</h2>
+        <div class="choice-container">
+
+          <ul class="choice-prefix">
+            <li><input type="radio" class="choice-text" id="option1" name="answerSelected" value = "option1"/>Choice 1</li>
+            <li><input type="radio" class="choice-text" id="option2" name="answerSelected" value = "option2"/>Choice 2</li>
+            <li><input type="radio" class="choice-text" id="option3" name="answerSelected" value = "option3"/>Choice 3</li>
+            <li><input type="radio" class="choice-text" id="option4" name="answerSelected" value = "option4"/>Choice 4</li>
+          </ul>
+  
+        </div>
+        <div class="pagebutton">
+          <div class="previous">
+            <button class="previosQuestion">Previous Question</button>
+          </div>
+          <div id="nextQuestion" onclick="getNewQuestion()">
+            <button>Next Question</button>
+          </div>
+          <div id="save" onclick="saveAnswer()">
+            <button class="savebutton">Save</button>
+          </div>
+          <div class="submit">
+            <button class="previosQuestion">
+              <a href="result.html">Submit</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/coding.js"></script>
+  </body>
+</html>

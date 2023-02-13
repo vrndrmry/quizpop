@@ -1,0 +1,67 @@
+.game {
+  position: relative;
+  top: 56%;
+  left: 50%;
+  width: 60vw;
+  padding: 2rem;
+}
+
+div > h2{
+  position: relative;
+  text-align: center;
+  margin-top: 10vh; 
+  width: 500px auto;
+}
+
+li{
+list-style-type: none;
+ padding: 10px;
+ margin-bottom: 10px;
+ border: 1px solid #56a5eb;
+}
+
+.choice-prefix {
+  padding: 24px;
+  margin: 24px;
+  color: black
+}
+
+.pagebutton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: 0.5 ease;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  background-color: #3c85ca;
+  color: white;
+  width: 160px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid grey;
+  margin: 10px;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+.choice-container li:hover {
+  background-color: #b5b682;
+  transition: 500ms;
+  border-radius: 10px;
+  transition: 500ms;
+}
+
+button:hover {
+  background-color: #4fa3a5;
+}
+
+

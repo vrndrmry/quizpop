@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  font-size: 1.8rem;
+  text-align: center;
+  color: #2F3C7E;
+}
+
+
+.button{
+  position: absolute;
+  top: 56%;
+  left:50%;
+  margin-top: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.topicbtn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: 0.5 ease;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button{
+  background-color: #165954 ;
+  width: 160px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: #4fa3a5;
+}
